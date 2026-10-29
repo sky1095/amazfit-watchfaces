@@ -1,0 +1,85 @@
+{
+  "configVersion": "v2",
+  "app": {
+    "appId": 1093853,
+    "appName": "Mischief Gazette Dark",
+    "appType": "watchface",
+    "version": {
+      "code": 1,
+      "name": "1.0.0"
+    },
+    "icon": "icon.png",
+    "vender": "Sudhanshu",
+    "description": "A wizarding newspaper for your wrist, on true black"
+  },
+  "permissions": [
+    "data:user.hd.heart_rate",
+    "data:user.hd.step",
+    "data:user.hd.calorie",
+    "data:os.weather"
+  ],
+  "runtime": {
+    "apiVersion": {
+      "compatible": "1.0.0",
+      "target": "1.0.1",
+      "minVersion": "1.0.0"
+    }
+  },
+  "targets": {
+    "default": {
+      "module": {
+        "watchface": {
+          "path": "watchface/index",
+          "main": 1,
+          "editable": 0,
+          "lockscreen": 0
+        }
+      },
+      "platforms": [
+        {
+          "name": "Amazfit Active 2 NFC (Round)",
+          "deviceSource": 8913152
+        },
+        {
+          "name": "Amazfit Active 2 NFC (Round)",
+          "deviceSource": 8913153
+        },
+        {
+          "name": "Amazfit Active 2 (Round)",
+          "deviceSource": 8913155
+        },
+        {
+          "name": "Amazfit Active 2 (Round)",
+          "deviceSource": 8913159
+        },
+        {
+          "name": "Amazfit Active 2 NFC (Round)",
+          "deviceSource": 10092800
+        },
+        {
+          "name": "Amazfit Active 2 NFC (Round)",
+          "deviceSource": 10092801
+        },
+        {
+          "name": "Amazfit Active 2 (Round)",
+          "deviceSource": 10092803
+        },
+        {
+          "name": "Amazfit Active 2 (Round)",
+          "deviceSource": 10092807
+        },
+        {
+          "name": "Amazfit Active 2 (Round)",
+          "deviceSource": 10617091
+        }
+      ],
+      "designWidth": 466
+    }
+  },
+  "i18n": {
+    "en-US": {
+      "appName": "Mischief Gazette Dark"
+    }
+  },
+  "defaultLanguage": "en-US"
+}

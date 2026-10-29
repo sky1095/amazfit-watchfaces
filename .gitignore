@@ -1,0 +1,6 @@
+node_modules/
+dist/
+preview*.png
+install-qr.*
+zeus-tools/g/
+.DS_Store

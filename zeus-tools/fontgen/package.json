@@ -1,0 +1,9 @@
+{
+  "name": "fontgen",
+  "private": true,
+  "description": "Renders font glyphs and dial art into PNGs for the faces' generator scripts.",
+  "dependencies": {
+    "opentype.js": "^2.0.0",
+    "sharp": "^0.35.5"
+  }
+}

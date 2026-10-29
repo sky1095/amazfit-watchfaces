@@ -1,0 +1,355 @@
+{
+  "configVersion": "v2",
+  "app": {
+    "appId": 1093847,
+    "appName": "Ember",
+    "appType": "watchface",
+    "version": {
+      "code": 1,
+      "name": "1.0.0"
+    },
+    "icon": "icon.png",
+    "vender": "Sudhanshu",
+    "description": "Digital face with step and battery rings"
+  },
+  "permissions": [
+    "data:user.hd.heart_rate",
+    "data:user.hd.step"
+  ],
+  "runtime": {
+    "apiVersion": {
+      "compatible": "1.0.0",
+      "target": "1.0.1",
+      "minVersion": "1.0.0"
+    }
+  },
+  "targets": {
+    "default": {
+      "module": {
+        "watchface": {
+          "path": "watchface/index",
+          "main": 1,
+          "editable": 0,
+          "lockscreen": 0
+        }
+      },
+      "platforms": [
+        {
+          "name": "Amazfit GTR 3",
+          "deviceSource": 226
+        },
+        {
+          "name": "Amazfit GTR 3",
+          "deviceSource": 227
+        },
+        {
+          "name": "Amazfit GTR 3 Pro",
+          "deviceSource": 229
+        },
+        {
+          "name": "Amazfit GTR 3 Pro",
+          "deviceSource": 230
+        },
+        {
+          "name": "Amazfit GTR 3 Pro Limited Edition",
+          "deviceSource": 242
+        },
+        {
+          "name": "Amazfit GTR Mini",
+          "deviceSource": 251
+        },
+        {
+          "name": "Amazfit Falcon",
+          "deviceSource": 414
+        },
+        {
+          "name": "Amazfit Falcon",
+          "deviceSource": 415
+        },
+        {
+          "name": "Amazfit T-Rex 2",
+          "deviceSource": 418
+        },
+        {
+          "name": "Amazfit T-Rex 2",
+          "deviceSource": 419
+        },
+        {
+          "name": "Amazfit GTR 3 Pro",
+          "deviceSource": 6095106
+        },
+        {
+          "name": "Amazfit T-Rex Ultra",
+          "deviceSource": 6553856
+        },
+        {
+          "name": "Amazfit T-Rex Ultra",
+          "deviceSource": 6553857
+        },
+        {
+          "name": "Amazfit GTR 4 Limited Edition",
+          "deviceSource": 7864577
+        },
+        {
+          "name": "Amazfit GTR 4",
+          "deviceSource": 7930112
+        },
+        {
+          "name": "Amazfit GTR 4",
+          "deviceSource": 7930113
+        },
+        {
+          "name": "Amazfit Cheetah Pro",
+          "deviceSource": 8126720
+        },
+        {
+          "name": "Amazfit Cheetah Pro",
+          "deviceSource": 8126721
+        },
+        {
+          "name": "Cheetah Pro Kelvin Kiptum",
+          "deviceSource": 8126727
+        },
+        {
+          "name": "Amazfit Cheetah (Round)",
+          "deviceSource": 8192256
+        },
+        {
+          "name": "Amazfit Cheetah (Round)",
+          "deviceSource": 8192257
+        },
+        {
+          "name": "Amazfit Active Edge",
+          "deviceSource": 8388864
+        },
+        {
+          "name": "Amazfit Active Edge",
+          "deviceSource": 8388865
+        },
+        {
+          "name": "Amazfit Balance",
+          "deviceSource": 8519936
+        },
+        {
+          "name": "Amazfit Balance",
+          "deviceSource": 8519937
+        },
+        {
+          "name": "Amazfit Balance",
+          "deviceSource": 8519939
+        },
+        {
+          "name": "Amazfit T-Rex 3",
+          "deviceSource": 8716544
+        },
+        {
+          "name": "Amazfit T-Rex 3",
+          "deviceSource": 8716545
+        },
+        {
+          "name": "Amazfit T-Rex 3",
+          "deviceSource": 8716547
+        },
+        {
+          "name": "Amazfit Active 2 NFC (Round)",
+          "deviceSource": 8913152
+        },
+        {
+          "name": "Amazfit Active 2 NFC (Round)",
+          "deviceSource": 8913153
+        },
+        {
+          "name": "Amazfit Active 2 (Round)",
+          "deviceSource": 8913155
+        },
+        {
+          "name": "Amazfit Active 2 (Round)",
+          "deviceSource": 8913159
+        },
+        {
+          "name": "Amazfit GTR 4 new",
+          "deviceSource": 9437441
+        },
+        {
+          "name": "Amazfit Balance 2",
+          "deviceSource": 9568512
+        },
+        {
+          "name": "Amazfit Balance 2",
+          "deviceSource": 9568513
+        },
+        {
+          "name": "Amazfit Balance 2",
+          "deviceSource": 9568515
+        },
+        {
+          "name": "Amazfit Cheetah 2 Ultra",
+          "deviceSource": 9978112
+        },
+        {
+          "name": "Amazfit Cheetah 2 Ultra",
+          "deviceSource": 9978113
+        },
+        {
+          "name": "Amazfit Active 2 NFC (Round)",
+          "deviceSource": 10092800
+        },
+        {
+          "name": "Amazfit Active 2 NFC (Round)",
+          "deviceSource": 10092801
+        },
+        {
+          "name": "Amazfit Active 2 (Round)",
+          "deviceSource": 10092803
+        },
+        {
+          "name": "Amazfit Active 2 (Round)",
+          "deviceSource": 10092807
+        },
+        {
+          "name": "Amazfit Balance 2 XT",
+          "deviceSource": 10486016
+        },
+        {
+          "name": "Amazfit Balance 2 XT",
+          "deviceSource": 10486017
+        },
+        {
+          "name": "Amazfit Balance 2 XT",
+          "deviceSource": 10486019
+        },
+        {
+          "name": "Amazfit T-Rex 3 Pro (48mm)",
+          "deviceSource": 10551552
+        },
+        {
+          "name": "Amazfit T-Rex 3 Pro (48mm)",
+          "deviceSource": 10551553
+        },
+        {
+          "name": "Amazfit T-Rex 3 Pro (48mm)",
+          "deviceSource": 10551555
+        },
+        {
+          "name": "Amazfit Active 2 (Round)",
+          "deviceSource": 10617091
+        },
+        {
+          "name": "Amazfit T-Rex 3 Pro (44mm)",
+          "deviceSource": 10682624
+        },
+        {
+          "name": "Amazfit T-Rex 3 Pro (44mm)",
+          "deviceSource": 10682625
+        },
+        {
+          "name": "Amazfit T-Rex 3 Pro (44mm)",
+          "deviceSource": 10682627
+        },
+        {
+          "name": "Amazfit Active Max",
+          "deviceSource": 10813697
+        },
+        {
+          "name": "Amazfit Active Max",
+          "deviceSource": 10813699
+        },
+        {
+          "name": "Amazfit T-Rex Ultra 2",
+          "deviceSource": 10879232
+        },
+        {
+          "name": "Amazfit T-Rex Ultra 2",
+          "deviceSource": 10879233
+        },
+        {
+          "name": "Amazfit T-Rex Ultra 2",
+          "deviceSource": 10879235
+        },
+        {
+          "name": "Amazfit Active 3 Premium",
+          "deviceSource": 10944768
+        },
+        {
+          "name": "Amazfit Active 3 Premium",
+          "deviceSource": 10944769
+        },
+        {
+          "name": "Amazfit Active 3 Premium",
+          "deviceSource": 10944771
+        },
+        {
+          "name": "Amazfit Active 3 Premium",
+          "deviceSource": 10948867
+        },
+        {
+          "name": "Amazfit Cheetah 2 Pro",
+          "deviceSource": 11010304
+        },
+        {
+          "name": "Amazfit Cheetah 2 Pro",
+          "deviceSource": 11010305
+        },
+        {
+          "name": "Amazfit Cheetah 2 Pro",
+          "deviceSource": 11010307
+        },
+        {
+          "name": "Amazfit Balance Ultra",
+          "deviceSource": 11075840
+        },
+        {
+          "name": "Amazfit Balance Ultra",
+          "deviceSource": 11075841
+        },
+        {
+          "name": "Amazfit Balance Ultra",
+          "deviceSource": 11092224
+        },
+        {
+          "name": "Amazfit Balance Ultra",
+          "deviceSource": 11092225
+        },
+        {
+          "name": "Amazfit Balance 3",
+          "deviceSource": 11141376
+        },
+        {
+          "name": "Amazfit Balance 3",
+          "deviceSource": 11141377
+        },
+        {
+          "name": "Amazfit Balance 3",
+          "deviceSource": 11141379
+        },
+        {
+          "name": "Amazfit Balance 3 Ti",
+          "deviceSource": 11145472
+        },
+        {
+          "name": "Amazfit Balance 3 Ti",
+          "deviceSource": 11145473
+        },
+        {
+          "name": "Amazfit Balance 3 Ti",
+          "deviceSource": 11145475
+        },
+        {
+          "name": "Amazfit T-Rex Dual Solar",
+          "deviceSource": 11403520
+        },
+        {
+          "name": "Amazfit T-Rex Dual Solar",
+          "deviceSource": 11403521
+        }
+      ],
+      "designWidth": 480
+    }
+  },
+  "i18n": {
+    "en-US": {
+      "appName": "Ember"
+    }
+  },
+  "defaultLanguage": "en-US"
+}

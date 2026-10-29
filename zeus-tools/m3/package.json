@@ -1,0 +1,9 @@
+{
+  "name": "m3",
+  "private": true,
+  "description": "Generates Tonal's Material 3 palettes: npx esbuild gen.mjs --bundle --platform=node --format=esm --outfile=gen.bundle.mjs && node gen.bundle.mjs '#4285F4'",
+  "dependencies": {
+    "@material/material-color-utilities": "^0.4.0",
+    "esbuild": "^0.28.2"
+  }
+}
