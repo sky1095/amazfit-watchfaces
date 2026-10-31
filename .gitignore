@@ -1,6 +1,9 @@
 node_modules/
 dist/
+!**/assets/**/dist/
 preview*.png
 install-qr.*
 zeus-tools/g/
 .DS_Store
+__pycache__/
+*.pyc
